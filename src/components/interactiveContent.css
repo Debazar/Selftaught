@@ -1,0 +1,76 @@
+.interactive-content-teasers {
+  padding: 2rem;
+  text-align: center;
+  margin-top: 2rem; 
+}
+
+.interactive-content-teasers h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.teasers-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.teaser-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+  width: 300px;
+  text-align: left;
+}
+
+.teaser-image {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.teaser-content {
+  padding: 1rem;
+}
+
+.teaser-content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.teaser-content p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.cta-button {
+  background-color: #ff5722;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.cta-button:hover {
+  background-color: #e64a19;
+}
+
+/* Media Query for tablets and smaller devices */
+@media (max-width: 768px) {
+  .teasers-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .teaser-card {
+    width: 90%;
+  }
+}

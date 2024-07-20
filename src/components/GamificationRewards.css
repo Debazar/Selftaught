@@ -1,0 +1,60 @@
+.gamification-rewards {
+  padding: 2rem;
+  text-align: center;
+  margin-top: 2rem; /* Add margin to separate from other sections */
+}
+
+.gamification-rewards h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.rewards-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.reward-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+  width: 300px;
+  text-align: left;
+}
+
+.reward-image {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.reward-content {
+  padding: 1rem;
+}
+
+.reward-content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.reward-content p {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Media Query for tablets and smaller devices */
+@media (max-width: 768px) {
+  .rewards-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .reward-card {
+    width: 90%;
+  }
+}
