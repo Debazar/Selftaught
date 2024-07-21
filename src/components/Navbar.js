@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import './Navbar.css';
 import MenuIcon from '../assets/images.png'; 
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -11,7 +12,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <div className="logo">LearnIt</div>
+      <div className="logo">Selftaught</div>
       <div className='search-bar'>
         <input type='text' placeholder='Search...'/>
       </div>
@@ -19,7 +20,7 @@ const Navbar = () => {
         <img src={MenuIcon} alt="Menu" />
       </div>
       <ul className={`nav-links ${showMenu ? 'active' : ''}`}>
-        <li><a href="#">Courses</a></li>
+        <li><Link to="/Courses"><a href="#">Courses</a></Link></li>
         <li><a href="#">Community</a></li>
         <li><a href="#">Blog</a></li>
         <li><a href="#">About Us</a></li>
