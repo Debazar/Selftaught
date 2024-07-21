@@ -6,6 +6,8 @@ import Courses from './components/Courses';
 import Community from './components/Commiunity';
 import Blog from './components/Blog';
 import Aboutus from './components/Aboutus';
+import Contact from './components/Contact';
+import Login from './components/Login';
 
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
          <Route path='/Community' element={<Community/>}/>
          <Route path='/Blog' element={<Blog/>}/>
          <Route path='/Aboutus' element={<Aboutus/>}/>
+         <Route path='/Contact' element={<Contact/>}/>
+         <Route path="/Login" element={<Login/>}/>
         </Routes>
       </Router>
    

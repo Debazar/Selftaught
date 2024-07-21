@@ -24,8 +24,8 @@ const Navbar = () => {
         <li><Link to ="/Community"><a href="#">Community</a></Link></li>
         <li><Link to="/Blog"><a href="#">Blog</a></Link></li>
         <li><Link to="/Aboutus"><a href="#">About Us</a></Link></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Login</a></li>
+        <li><Link to="/Contact"><a href="#">Contact</a></Link></li>
+        <li><Link to="/Login"><a href="#">Login</a></Link></li>
       </ul>
     </nav>
   );
