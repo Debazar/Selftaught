@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <div className="logo">Selftaught</div>
+      <Link to ="/"><div className="logo">Selftaught</div></Link>
       <div className='search-bar'>
         <input type='text' placeholder='Search...'/>
       </div>
@@ -21,9 +21,9 @@ const Navbar = () => {
       </div>
       <ul className={`nav-links ${showMenu ? 'active' : ''}`}>
         <li><Link to="/Courses"><a href="#">Courses</a></Link></li>
-        <li><a href="#">Community</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">About Us</a></li>
+        <li><Link to ="/Community"><a href="#">Community</a></Link></li>
+        <li><Link to="/Blog"><a href="#">Blog</a></Link></li>
+        <li><Link to="/Aboutus"><a href="#">About Us</a></Link></li>
         <li><a href="#">Contact</a></li>
         <li><a href="#">Login</a></li>
       </ul>
