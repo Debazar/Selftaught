@@ -6,7 +6,7 @@ function Contact(){
   return(
     <div>
       <Navbar/>
-      <Footer/>
+      <Footer/> 
     </div>
   )
 }
