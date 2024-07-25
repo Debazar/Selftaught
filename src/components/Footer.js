@@ -28,9 +28,9 @@ const Footer = () => {
         <div className="footer-section">
           <h4>Follow Us</h4>
           <div className="social-icons">
-            <a href="#"><img src="path_to_facebook_icon" alt="Facebook" /></a>
-            <a href="#"><img src="path_to_twitter_icon" alt="Twitter" /></a>
-            <a href="#"><img src="path_to_instagram_icon" alt="Instagram" /></a>
+            <a href="#"><img src="images/fb.jpeg" alt="Facebook" /></a>
+            <a href="#"><img src="images/tw.jpg" alt="Twitter" /></a>
+            <a href="#"><img src="images/ig.jpg" alt="Instagram" /></a>
           </div>
         </div>
       </div>
